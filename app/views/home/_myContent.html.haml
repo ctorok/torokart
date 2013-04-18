@@ -1,0 +1,34 @@
+#main{:role => "main"}
+  / %ol#filters
+  /   %li{"data-filter" => "blue"} Blue
+  /   %li{"data-filter" => "orange"} Orange
+  /   %li{"data-filter" => "ceramic"} Ceramic
+  /   %li{"data-filter" => "painting"} Painting
+
+  %ul#tiles
+    / These are our grid blocks
+    %li
+      %p EDL Sand Leon Blue Painting
+      = image_tag "EDL_Sand_Leon.JPG", size: "200x100"
+    %li
+      %p Orange Blue
+      = image_tag "image_2.jpg", size: "200x300"
+    %li
+      %p Orange Ceramic
+      = image_tag "image_3.jpg", size: "200x252"
+    %li
+      %p 4
+      = image_tag "image_4.jpg", size: "200x158"
+    %li
+      %p 5
+      = image_tag "image_5.jpg", size: "200x300"
+    %li
+      %p 6
+      = image_tag "image_6.jpg", size: "200x297"
+    %li
+      %p 1
+      = image_tag "image_1.jpg", size: "200x283"
+
+
+
+
