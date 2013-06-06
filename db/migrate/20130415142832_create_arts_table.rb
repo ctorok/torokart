@@ -7,6 +7,7 @@ class CreateArtsTable < ActiveRecord::Migration
       t.integer :year
       t.timestamps
       t.integer :artist_id
+      t.integer :tag_id
     end
   end
 end
